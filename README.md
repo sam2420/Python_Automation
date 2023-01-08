@@ -7,14 +7,14 @@ This repository includes some of my python automation projects which are :
 
 For this we have created a Hand Tracking Module using OpenCv and MediaPipe
 
-# 1Controlling Volume 
+# 1. Controlling Volume 
 
 This program adjusts the volume of your system by tracking the distance between your thumb and index fingers
 the more the distance the Volume will increase the smaller the distance gets the Volume of your system reduces
 ** distance may vary upon your hand placement from the camera 
 
 
-# 2Number of Fingers of Left Hand 
+# 2. Number of Fingers of Left Hand 
 
 This program counts the number of fingers held up by a person on his/her left hand 
 the code change needed to make to convert this program to right hand is as follows:
@@ -26,7 +26,7 @@ if lmList[tipIds[id]][2] > lmList[tipIds[id] - 2][2]:
 now you can use this for right hand counting fingeres
 
 
-# 3Controlling Hill Climb Racing 
+# 3. Controlling Hill Climb Racing 
 
 This program allows you to play the game hill climb racing using your right hand 
 
